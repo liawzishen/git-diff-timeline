@@ -1,0 +1,15 @@
+{
+  "name": "git-diff-timeline",
+  "version": "0.4.0",
+  "description": "Git Diff timeline above the prompt: click a commit to see it, click two to compare them, with their commit messages; a Branches tab compares two branches; a GitHub-style files view shows each file's diff. Works with any git remote.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "position": {
+      "type": "string",
+      "title": "Where Git Diff shows",
+      "description": "band: a strip above the prompt in every git repository; clicking a commit opens the files view beside the chat. pane: everything in the side pane, which opens itself.",
+      "default": "band",
+      "options": ["band", "pane"]
+    }
+  }
+}
